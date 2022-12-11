@@ -1,3 +1,38 @@
-#by weekly activity
-#deepikaaaa
+class Program
+{
+    static void Main(string[] args)
+    {
+        Console.WriteLine("calculator");
 
+        //ask the user to enter the first number
+        Console.Write("enter the first number:");
+        int a = Convert.ToInt32(Console.ReadLine());
+
+        //ask the user to enter the second number
+        Console.Write("enter second number:");
+        int b = Convert.ToInt32(Console.ReadLine());
+        int result = a-b;
+
+        Console.WriteLine("the total is:" + result);
+        Console.Read();
+    }
+class Program
+{
+    static void Main(string[] args)
+    {
+        Console.WriteLine("calculator");
+
+        //ask the user to enter the first number
+        Console.Write("enter the first number:");
+        int a = Convert.ToInt32(Console.ReadLine());
+
+        //ask the user to enter the second number
+        Console.Write("enter second number:");
+        int b = Convert.ToInt32(Console.ReadLine());
+        int result = a-b;
+
+        Console.WriteLine("the total is:" + result);
+        Console.Read();
+    }
+
+}
