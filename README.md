@@ -1,7 +1,7 @@
 using System;
 
 
-class Program
+class DIPIKA Program
 {
     static void Main(string[] args)
     {
